@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,42 +12,56 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/whitespace-se/matomo-loadtest">Matomo loadtest</a>
+          <a href="https://github.com/whitespace-se/matomo-loadtest">
+            Matomo loadtest
+          </a>
         </h1>
 
         <div className={styles.grid}>
-          <a href="/page-1" className={styles.card}>
-            <h3>Page 1</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/open-source" className={styles.card}>
+            <h3>Open source</h3>
+            <p>
+              Minimise risk with a secure, transparent platform that’s been
+              thoroughly tested by hundreds of contributors.{" "}
+            </p>
           </a>
 
-          <a href="/page-2" className={styles.card}>
-            <h3>Page 2</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/accurate-data" className={styles.card}>
+            <h3>100% accurate data</h3>
+            <p>
+              No data sampling means you can make impactful decisions based on
+              100% accurate reporting.
+            </p>
           </a>
 
-          <a href="/page-3" className={styles.card}>
-            <h3>Page 3</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/tracking-personal-data" className={styles.card}>
+            <h3>Tracking personal data</h3>
+            <p>
+              Securely track personal data in accordance with privacy laws. This
+              option is unavailable with GA.
+            </p>
           </a>
 
-          <a href="/page-4" className={styles.card}>
-            <h3>Page 4</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>          
+          <a href="/no-data-limitations" className={styles.card}>
+            <h3>No data limitations</h3>
+            <p>
+              Get an unlimited number of websites, users and segments. There’s
+              also no limitation on how much data you store.
+            </p>
+          </a>
         </div>
       </main>
 
       {/* <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://whitespace.se?utm_source=matomo-loadtest&utm_medium=default-template&utm_campaign=matomo-loadtest"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/matomo.svg" alt="Whitespace Matomo Logo" className={styles.logo} />
         </a>
       </footer> */}
     </div>
-  )
+  );
 }
