@@ -1,18 +1,17 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Matomo loadtest | Tracking personal data</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Tracking personal data</h1>
+      <main className="main">
+        <h1 className="title">Tracking personal data</h1>
 
-        <div className={styles.grid}>
+        <div className="grid">
           <p>
             When you use the{" "}
             <a href="https://developer.matomo.org/api-reference/tracking-javascript">
@@ -86,7 +85,7 @@ export default function Home() {
             </a>{" "}
             and then collected by Matomo:
           </p>
-          <a href="/" className={styles.card}>
+          <a href="/" className="card">
             <h3>Matomo loadtest</h3>
             <p>
               The comprehensive range of features gives you actionable insights

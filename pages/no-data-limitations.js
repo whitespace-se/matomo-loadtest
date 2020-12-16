@@ -1,17 +1,16 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Matomo loadtest | No data limitations</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>No data limitations</h1>
-        <div className={styles.grid}>
+      <main className="main">
+        <h1 className="title">No data limitations</h1>
+        <div className="grid">
           <p>
             With Matomo, what you can track and achieve is limitless. You’re not
             bound by the limitations tools like Google Analytics impose. Google
@@ -22,7 +21,7 @@ export default function Home() {
             websites/goals/segments as you want.
           </p>
 
-          <a href="/" className={styles.card}>
+          <a href="/" className="card">
             <h3>Matomo loadtest</h3>
             <p>
               The comprehensive range of features gives you actionable insights

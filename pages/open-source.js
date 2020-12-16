@@ -3,16 +3,16 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Matomo loadtest | Open source</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Open source</h1>
+      <main className="main">
+        <h1 className="title">Open source</h1>
 
-        <div className={styles.grid}>
+        <div className="grid">
           <p>
             For Matomo, the “free” in “free software” is used primarily in
             reference to freedom and not to price – although Matomo core is
@@ -26,7 +26,7 @@ export default function Home() {
             Matomo.
           </p>
 
-          <a href="/" className={styles.card}>
+          <a href="/" className="card">
             <h3>Matomo loadtest</h3>
             <p>
               The comprehensive range of features gives you actionable insights

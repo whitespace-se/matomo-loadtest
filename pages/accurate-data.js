@@ -1,18 +1,17 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Matomo loadtest | 100% accurate data</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>100% accurate data</h1>
+      <main className="main">
+        <h1 className="title">100% accurate data</h1>
 
-        <div className={styles.grid}>
+        <div className="grid">
           <h2>
             Data sampling can cost your business time, resources, and money
           </h2>
@@ -29,7 +28,7 @@ export default function Home() {
             “good enough” data. To make confident, data-driven decisions, you’ll
             want the actual facts.
           </p>
-          <a href="/" className={styles.card}>
+          <a href="/" className="card">
             <h3>Matomo loadtest</h3>
             <p>
               The comprehensive range of features gives you actionable insights
