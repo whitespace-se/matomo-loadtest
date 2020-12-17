@@ -1,4 +1,4 @@
 module.exports = {
-  basePath: "/matomo-loadtest",
-  assetPrefix: "/matomo-loadtest/",
+  basePath: process.env.BASE_PATH,
+  assetPrefix: process.env.ASSET_PREFIX,
 };
