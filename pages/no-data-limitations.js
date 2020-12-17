@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Matomo loadtest | No data limitations</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${process.env.BASE_PATH}/favicon.ico`} />
       </Head>
 
       <main className="main">
