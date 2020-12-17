@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,13 +26,15 @@ export default function Home() {
             Matomo.
           </p>
 
-          <a href="/" className="card">
-            <h3>Matomo loadtest</h3>
-            <p>
-              The comprehensive range of features gives you actionable insights
-              and a complete picture of your customers.
-            </p>
-          </a>
+          <Link href="/">
+            <a className="card">
+              <h3>Matomo loadtest</h3>
+              <p>
+                The comprehensive range of features gives you actionable
+                insights and a complete picture of your customers.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
     </div>

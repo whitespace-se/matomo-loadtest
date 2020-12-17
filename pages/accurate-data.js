@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -28,13 +29,15 @@ export default function Home() {
             “good enough” data. To make confident, data-driven decisions, you’ll
             want the actual facts.
           </p>
-          <a href="/" className="card">
-            <h3>Matomo loadtest</h3>
-            <p>
-              The comprehensive range of features gives you actionable insights
-              and a complete picture of your customers.
-            </p>
-          </a>
+          <Link href="/">
+            <a className="card">
+              <h3>Matomo loadtest</h3>
+              <p>
+                The comprehensive range of features gives you actionable
+                insights and a complete picture of your customers.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
     </div>
