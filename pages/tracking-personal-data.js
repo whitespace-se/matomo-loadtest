@@ -101,7 +101,7 @@ export default function Home() {
             and then collected by Matomo:
           </p>
           <Link href="/">
-            <a className="card">
+            <a name="Matomo loadtest" className="card">
               <h3>Matomo loadtest</h3>
               <p>
                 The comprehensive range of features gives you actionable

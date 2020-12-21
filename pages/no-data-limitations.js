@@ -23,7 +23,7 @@ export default function Home() {
           </p>
 
           <Link href="/">
-            <a className="card">
+            <a name="Matomo loadtest" className="card">
               <h3>Matomo loadtest</h3>
               <p>
                 The comprehensive range of features gives you actionable

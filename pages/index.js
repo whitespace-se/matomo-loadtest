@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className="grid">
           <Link href="/open-source">
-            <a className="card">
+            <a name="Open source" className="card">
               <h3>Open source</h3>
               <p>
                 Minimise risk with a secure, transparent platform that’s been
@@ -28,9 +28,8 @@ export default function Home() {
           </Link>
 
           <Link href="/accurate-data">
-            <a className="card">
+            <a name="100% accurate data" className="card">
               <h3>100% accurate data</h3>
-
               <p>
                 No data sampling means you can make impactful decisions based on
                 100% accurate reporting.
@@ -39,7 +38,7 @@ export default function Home() {
           </Link>
 
           <Link href="/tracking-personal-data">
-            <a className="card">
+            <a name="Tracking personal data" className="card">
               <h3>Tracking personal data</h3>
               <p>
                 Securely track personal data in accordance with privacy laws.
@@ -49,7 +48,7 @@ export default function Home() {
           </Link>
 
           <Link href="/no-data-limitations">
-            <a className="card">
+            <a name="No data limitations" className="card">
               <h3>No data limitations</h3>
               <p>
                 Get an unlimited number of websites, users and segments. There’s
